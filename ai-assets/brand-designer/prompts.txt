@@ -1,0 +1,11 @@
+Brand Designer Hero Image Prompt:
+Create a modern hero image for a Kuala Lumpur creative co-working space used by brand designers. Include colour palettes, logo sketches, typography boards, moodboards, laptops, and a clean professional studio atmosphere. The image should feel modern, creative, and suitable for a portfolio website.
+
+AI Tool Used:
+Canva AI / Google Gemini
+
+Purpose:
+The AI image generator was used to create four different hero visuals for four visitor profiles: Portfolio, Brand Designer, Motion Graphics Artist, and UX Researcher.
+
+Human Refinement:
+The generated images were reviewed and adjusted to match the Creative Hub KL website style. The final selected images were chosen based on clarity, relevance, colour consistency, and suitability for a professional portfolio website.

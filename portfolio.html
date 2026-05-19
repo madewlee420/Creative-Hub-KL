@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Overview | Creative Hub KL</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="s2-page">
+
+<header class="ch-header">
+  <nav class="ch-navbar">
+    <h1 class="ch-logo">Creative Hub KL</h1>
+
+    <ul class="ch-nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="facilities.html">Facilities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="brand-designer.html">Brand Designer</a></li>
+      <li><a href="motion-graphics.html">Motion Graphics</a></li>
+      <li><a href="ux-researcher.html">UX Researcher</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="ai-personalization.html">AI Demo</a></li>
+      <li><a href="ai-asset-process.html">AI Process</a></li>
+      <li><a href="accessibility-ethics.html">Accessibility</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="s2-hero">
+    <div class="s2-hero-text">
+      <p class="s2-label">Portfolio Overview</p>
+      <h2>Personalized Creative Portfolio</h2>
+      <p>
+        Creative Hub KL uses AI-assisted personalization to help visitors explore portfolio projects based on their creative interests. The website highlights different project details for brand designers, motion graphics artists, and UX researchers.
+      </p>
+    </div>
+
+    <figure class="s2-hero-image">
+      <img id="heroImage" src="img/hero-portfolio.png" alt="Creative portfolio workspace with design materials">
+      <figcaption id="heroCaption">Portfolio view for Brand Designers</figcaption>
+    </figure>
+  </section>
+
+  <section class="s2-profile-selector" aria-labelledby="profile-title">
+    <h2 id="profile-title">Choose Your Visitor Profile</h2>
+    <p>Select a profile to change the page theme, hero image, and project description.</p>
+
+    <div class="s2-button-group">
+      <button onclick="setProfile('brand')">Brand Designer</button>
+      <button onclick="setProfile('motion')">Motion Graphics Artist</button>
+      <button onclick="setProfile('ux')">UX Researcher</button>
+    </div>
+  </section>
+
+  <section class="s2-personalized-content" aria-labelledby="personalized-title">
+    <h2 id="personalized-title">AI-Personalized Project Focus</h2>
+    <p id="profileDescription">
+      Brand designers see portfolio content focused on colour palettes, typography, logo systems, and visual consistency.
+    </p>
+  </section>
+
+  <section class="s2-project-grid" aria-labelledby="featured-title">
+    <h2 id="featured-title">Featured Projects</h2>
+
+    <article class="s2-project-card">
+      <p class="s2-label">Branding</p>
+      <h3>Brand Identity System</h3>
+      <p>
+        A visual identity project focused on colour, typography, logo usage, and brand consistency.
+      </p>
+      <a href="brand-designer.html">View Brand Designer Page</a>
+    </article>
+
+    <article class="s2-project-card">
+      <p class="s2-label">Motion</p>
+      <h3>Motion Campaign Visuals</h3>
+      <p>
+        A digital campaign project focused on animation flow, rhythm, and short-form visual storytelling.
+      </p>
+      <a href="motion-graphics.html">View Motion Graphics Page</a>
+    </article>
+
+    <article class="s2-project-card">
+      <p class="s2-label">UX Research</p>
+      <h3>UX Research Case Study</h3>
+      <p>
+        A user experience project focused on research, wireframes, user journeys, and usability testing.
+      </p>
+      <a href="ux-researcher.html">View UX Researcher Page</a>
+    </article>
+  </section>
+
+  <aside class="s2-note-box">
+    <h2>How AI Personalization Works</h2>
+    <p>
+      The selected profile changes the visual focus, project description, and page theme. This helps visitors find portfolio content that matches their creative field faster.
+    </p>
+  </aside>
+</main>
+
+<footer>
+  <p>&copy; 2026 Creative Hub KL. All rights reserved.</p>
+</footer>
+
+<script src="personalize.js"></script>
+
+</body>
+</html>

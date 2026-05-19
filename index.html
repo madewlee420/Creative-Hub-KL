@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Creative Hub KL</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="ch-header">
+  <nav class="ch-navbar">
+    <h1 class="ch-logo">Creative Hub KL</h1>
+
+    <ul class="ch-nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="facilities.html">Facilities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="brand-designer.html">Brand Designer</a></li>
+      <li><a href="motion-graphics.html">Motion Graphics</a></li>
+      <li><a href="ux-researcher.html">UX Researcher</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="ai-personalization.html">AI Demo</a></li>
+      <li><a href="ai-asset-process.html">AI Process</a></li>
+      <li><a href="accessibility-ethics.html">Accessibility</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="small-text">Modern Creative Co-Working Space</p>
+
+    <h1>
+      Create, Connect <br>
+      & Collaborate in Kuala Lumpur
+    </h1>
+
+    <p>
+      Creative Hub KL is a modern creative space designed for freelancers,
+      designers, illustrators, UX researchers and content creators.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="about.html" class="primary-btn">Explore More</a>
+      <a href="portfolio.html" class="secondary-btn">View Portfolio</a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="img/hero.jpg" alt="Creative workspace">
+  </div>
+</section>
+
+<section class="profiles">
+  <div class="section-title">
+    <h2>Choose Your Creative Profile</h2>
+    <p>AI personalization changes the experience based on your creative role.</p>
+  </div>
+
+  <div class="profile-buttons">
+    <button onclick="changeProfile('brand')">Brand Designer</button>
+    <button onclick="changeProfile('motion')">Motion Graphics Artist</button>
+    <button onclick="changeProfile('ux')">UX Researcher</button>
+  </div>
+
+  <div class="profile-display" id="profileDisplay">
+    <h3>Brand Designer</h3>
+    <p>
+      Discover branding workspaces, colour palette inspiration,
+      typography showcases and creative campaign discussions.
+    </p>
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature-card">
+    <h3>Creative Community</h3>
+    <p>
+      Connect with designers, creators and freelancers through networking
+      sessions and collaborative projects.
+    </p>
+  </div>
+
+  <div class="feature-card">
+    <h3>Professional Workspace</h3>
+    <p>
+      Modern minimalist interiors with high-speed internet, editing stations
+      and creative meeting rooms.
+    </p>
+  </div>
+
+  <div class="feature-card">
+    <h3>AI Enhanced Experience</h3>
+    <p>
+      Personalized content and creative recommendations based on your
+      professional profile.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Creative Hub KL. All Rights Reserved.</p>
+</footer>
+
+<script src="personalize.js"></script>
+
+</body>
+</html>

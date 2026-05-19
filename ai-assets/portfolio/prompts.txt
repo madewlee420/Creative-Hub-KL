@@ -1,0 +1,11 @@
+Portfolio Overview Hero Image Prompt:
+Create a modern hero image for Creative Hub KL, a creative co-working space in Kuala Lumpur. Show a clean portfolio workspace with a laptop displaying portfolio thumbnails, a sketchbook, colour swatches, typography samples, moodboard materials, a camera, notebooks, and neatly arranged design tools. The image should look professional, modern, and suitable for a portfolio website hero section. Use soft natural lighting and a clean studio atmosphere. Avoid clutter, random text, distorted objects, and unrealistic details.
+
+AI Tool Used:
+Canva AI / Google Gemini
+
+Purpose:
+The AI image generator was used to create four different hero visuals for four visitor profiles: Portfolio, Brand Designer, Motion Graphics Artist, and UX Researcher.
+
+Human Refinement:
+The generated images were reviewed and adjusted to match the Creative Hub KL website style. The final selected images were chosen based on clarity, relevance, colour consistency, and suitability for a professional portfolio website.

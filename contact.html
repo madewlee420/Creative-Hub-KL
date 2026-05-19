@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Creative Hub KL</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<header class="ch-header">
+  <nav class="ch-navbar">
+    <h1 class="ch-logo">Creative Hub KL</h1>
+
+    <ul class="ch-nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="facilities.html">Facilities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="brand-designer.html">Brand Designer</a></li>
+      <li><a href="motion-graphics.html">Motion Graphics</a></li>
+      <li><a href="ux-researcher.html">UX Researcher</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="ai-personalization.html">AI Demo</a></li>
+      <li><a href="ai-asset-process.html">AI Process</a></li>
+      <li><a href="accessibility-ethics.html">Accessibility</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="contact-container">
+  <div class="contact-info">
+    <h2>Contact Us</h2>
+    <p class="subtitle">Let’s build something amazing together. Get in touch for enquiries, bookings or collaborations.</p>
+
+    <div class="info-box">
+      <div class="info-item">
+        <i class="fa-regular fa-envelope"></i>
+        <div>
+          <span>Email</span>
+          <p>hello@creativehubkl.com</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>
+          <span>Location</span>
+          <p>Kuala Lumpur, Malaysia</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <i class="fa-regular fa-clock"></i>
+        <div>
+          <span>Hours</span>
+          <p>Mon - Fri, 9AM - 6PM</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-links">
+      <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" target="_blank" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+    </div>
+  </div>
+
+  <div class="contact-form-container">
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name">
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email address">
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Tell us about your project..."></textarea>
+      </div>
+      
+      <button type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Creative Hub KL. All Rights Reserved.</p>
+</footer>
+
+<script>
+  const form = document.querySelector('.contact-form');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    if (!name || !email || !message) {
+      alert('Please fill in all fields.');
+      return;
+    }
+
+    alert(`Thank you, ${name}. Your message has been saved successfully.`);
+    form.reset();
+  });
+</script>
+
+</body>
+</html>
